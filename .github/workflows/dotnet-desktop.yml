@@ -38,13 +38,13 @@ jobs:
         id: allure-report
         with:
           allure_results: './bin/Debug/net6.0/allure-results'
-          gh_pages: gh-pages
+          gh_pages: gh-page
           allure_report: allure-report
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
+          PUBLISH_BRANCH: gh-page
           PUBLISH_DIR: allure-report    
 
