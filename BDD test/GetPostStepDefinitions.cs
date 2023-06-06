@@ -32,3 +32,5 @@ namespace BDD_test
         }
     }
 }
+
+//to generate the allure report look for the proper directory and insert: allure serve allure-results
