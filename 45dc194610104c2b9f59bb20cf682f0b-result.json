@@ -1,0 +1,83 @@
+{
+  "uuid": "8fa85cd848b94d6f9f2e607c74dd2210",
+  "historyId": "Get a HTTP request by ID",
+  "fullName": "Get a HTTP request by ID",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-06ION51"
+    },
+    {
+      "name": "feature",
+      "value": "Get post"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Get a HTTP request by ID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  An endpoint with id value 1",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685981379802,
+      "stop": 1685981379892
+    },
+    {
+      "name": "When  A GET request is sent",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685981379892,
+      "stop": 1685981380017
+    },
+    {
+      "name": "Then  A valid response code is expected",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685981380017,
+      "stop": 1685981380023
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685981379712,
+  "stop": 1685981380025
+}
