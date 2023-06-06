@@ -27,7 +27,7 @@ jobs:
         if: ${{ always() }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: './bin/Debug/net6.0/allure-results'
+          publish_dir: './BDD test/bin/Debug/net6.0/allure-results'
           keep_files: true
           user_name: gabriel271085
           user_email: gabriel271085@gmail.com
@@ -37,7 +37,7 @@ jobs:
         if: always()
         id: allure-report
         with:
-          allure_results: './bin/Debug/net6.0/allure-results'
+          allure_results: './BDD test/bin/Debug/net6.0/allure-results'
           gh_pages: gh-page
           allure_report: allure-report
       - name: Deploy report to Github Pages
